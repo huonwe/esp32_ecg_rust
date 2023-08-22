@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/statics/index.css">
+    <script src="/statics/index.js"></script>
+    <title>ECG</title>
+</head>
+<body>
+    <div>
+        <div class="ecg_window">
+            <img id="img_ecg" src="" alt="ecg wave" width="450px">
+        </div>
+        <div class="rgb_roll">
+            <div>
+                <input type="range" id="range_r" name="r" min="0" max="255" value="0">
+                <label for="r">R</label>
+            </div>
+            <div>
+                <input type="range" id="range_g" name="g" min="0" max="255" value="0">
+                <label for="g">G</label>
+            </div>
+            <div>
+                <input type="range" id="range_b" name="b" min="0" max="255" value="0">
+                <label for="b">B</label>
+            </div>
+            <button id="neon_alert">警戒</button>
+        </div>
+
+    </div>
+</body>
+</html>
